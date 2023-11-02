@@ -3,6 +3,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 body, html{ 
     height: 100vh;
@@ -19,6 +20,7 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    overflow-x: hidden;
 }
 div{
     background-color: black;
